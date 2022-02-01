@@ -30,6 +30,7 @@ index.html is the root/ home page of a website
 <br> fine in html5
 
 html page structure
+
 <!DOCTYPE html> - it tells the brpwser what type of html this is written in (html5)
 
 <html>
@@ -40,3 +41,18 @@ html page structure
 <body>
 </body>
 </head>
+
+block level elements
+-start a new line (div, heading, p, forms)
+
+inline
+-ex(span)
+-strong
+-em
+-a / link
+
+Attributes
+-all tags can have Attributes
+-provide information about an elements
+-placed within the start tag
+-key/value pairs(id="someId")
