@@ -56,3 +56,10 @@ Attributes
 -provide information about an elements
 -placed within the start tag
 -key/value pairs(id="someId")
+
+forms
+action - submit a form to a certain page
+method = ex. post(post request to server ex. add data to database), get(submit it, and with a get you'll actually see the data filled in the url and it is not very safe), fine with things like search, 
+
+label/input  name Attribute
+inout type= text. name = in serve side it is how we grab the value in this form

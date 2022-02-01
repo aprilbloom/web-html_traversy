@@ -38,6 +38,93 @@
       and more recently with desktop publishing software like Aldus PageMaker
       including versions of Lorem Ipsum
     </p>
+    <!--List-->
+    <!--Unordered List-->
+    <ul>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+    </ul>
+    <!--Ordered List-->
+    <ol>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+    </ol>
+
+    <!--Tables-->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Leah Leonor</td>
+          <td>leahaprilleonor@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Maya Leonor</td>
+          <td>mayaleonor@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Stanlee Leonor</td>
+          <td>stanleeleonor@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+      <div>
+        <label for="">First Name:</label>
+        <input type="text" name="firstName" placeholder="Please enter name" />
+      </div>
+      <br />
+      <div>
+        <label for="">Last Name:</label>
+        <input type="text" name="lastName" />
+      </div>
+      <br />
+      <div>
+        <label for="">Email:</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="">Message:</label>
+        <textarea name="message" id="" cols="30" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="">Gender:</label>
+        <select name="Gender" id="">
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="">Age:</label>
+        <input type="number" name="age" />
+      </div>
+      <br />
+      <div>
+        <label for="">Birthday:</label>
+        <input type="date" name="lastName" />
+      </div>
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <div style="margin-top: 500px"></div>
+
     <a href="/me.html">My other page</a>
   </body>
 </html>
