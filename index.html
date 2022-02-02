@@ -1,24 +1,144 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <script src="script.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <title>HTML Cheat Sheet</title>
   </head>
   <body>
-    <div class="old-code">
-        <h1>Hello there!</h1>
-        <a href="/me.html">My other page</a>
-        <p>commit 1 using- gui</p>
-        <p>commit 2 using- command line</p>
+    <!--Headings-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
 
-        <div class="aquil-container">
-            <p>Aquil first commit</p>
-        </div>
-    </div>
+    <!--Paragraph-->
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an <strong> printer</strong> took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five
+      centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum
+    </p>
+    <p>
+      Lorem Ipsum is simply <em>dummy text</em> of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five
+      centuries, but also the <a href="/me.html">leap</a> into electronic
+      typesetting, remaining essentially unchanged. It was popularised in the
+      1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+      and more recently with desktop publishing software like Aldus PageMaker
+      including versions of Lorem Ipsum
+    </p>
+    <!--List-->
+    <!--Unordered List-->
+    <ul>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+    </ul>
+    <!--Ordered List-->
+    <ol>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+    </ol>
 
-    <div class="leah">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, atque.</p>
-    </div>
-    
+    <!--Tables-->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Leah Leonor</td>
+          <td>leahaprilleonor@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Maya Leonor</td>
+          <td>mayaleonor@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Stanlee Leonor</td>
+          <td>stanleeleonor@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+      <div>
+        <label for="">First Name:</label>
+        <input type="text" name="firstName" placeholder="Please enter name" />
+      </div>
+      <br />
+      <div>
+        <label for="">Last Name:</label>
+        <input type="text" name="lastName" />
+      </div>
+      <br />
+      <div>
+        <label for="">Email:</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="">Message:</label>
+        <textarea name="message" id="" cols="30" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="">Gender:</label>
+        <select name="Gender" id="">
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="">Age:</label>
+        <input type="number" name="age" />
+      </div>
+      <br />
+      <div>
+        <label for="">Birthday:</label>
+        <input type="date" name="lastName" />
+      </div>
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+    <button>Click here</button>
+    <br />
+    <img src="sample.jpeg" alt="Sample image" width="200" />
+
+    <!--Quotations-->
+    <blockquote cite="http:traversymedia.com">
+      Quotation <br />
+      Lorem Ipsum is simply <em>dummy text</em> of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+    </blockquote>
+
+    <abbr title="World Wide Web">www</abbr>
+    <br />
+    <br />
+    <a href="/me.html">My other page</a>
+
+    <div style="margin-top: 500px"></div>
   </body>
 </html>
