@@ -59,7 +59,18 @@ Attributes
 
 forms
 action - submit a form to a certain page
-method = ex. post(post request to server ex. add data to database), get(submit it, and with a get you'll actually see the data filled in the url and it is not very safe), fine with things like search, 
+method = ex. post(post request to server ex. add data to database), get(submit it, and with a get you'll actually see the data filled in the url and it is not very safe), fine with things like search,
 
-label/input  name Attribute
+label/input name Attribute
 inout type= text. name = in serve side it is how we grab the value in this form
+
+HTML Semantics - a semantic element clearly describes its meaning to both the browser and the developer.
+
+<header></header>
+<footer></footer>
+<aside></aside>
+<main></main>
+<article></article>
+<nav></nav>
+<section></section>
+<details></details>
